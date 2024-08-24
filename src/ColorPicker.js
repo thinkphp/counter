@@ -11,7 +11,7 @@ function ColorPicker() {
     <div>
       <h1>Color Picker</h1>
       <input type="color" value={color} onChange={handleColorChange} />
-      <div style={{ backgroundColor: color,  width: '200px', height:  '100px'}}>
+            <div style={{ backgroundColor: color,  width: '100%', height:  '100px'}}>
         <p>Selected Color: {color}</p>
       </div>
     </div>
